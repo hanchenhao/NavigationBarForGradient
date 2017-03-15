@@ -4,16 +4,13 @@
 
 ## 手动安装
 
-###1
-通过 Clone or download 下载 NavigationBarForGradient 文件夹内的所有内容。
+#### 1 通过 Clone or download 下载 NavigationBarForGradient 文件夹内的所有内容。
 
-###2
-将 Gradient 内的源文件添加(拖放)到你的工程。
+#### 2 将 Gradient 内的源文件添加(拖放)到你的工程。
 
-###3
-导入UINavigationBar+Gradient.h
+#### 3 导入UINavigationBar+Gradient.h
 
-###4
+#### 4
 ```objc
 /**
  设置背景色
