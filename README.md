@@ -64,7 +64,7 @@
 ![](https://github.com/hanchenhao/NavigationBarForGradient/blob/master/nav_bar.gif)
 
 ## 许可
-EmptyViewSet 使用 MIT 许可证，详情见 LICENSE 文件。
+本项目使用 MIT 许可证，详情见 LICENSE 文件。
 
 
 ## 联系方式
