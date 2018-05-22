@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F038764A20B407B000EA95CB /* UINavigationBar+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F038764920B407B000EA95CB /* UINavigationBar+Gradient.m */; };
 		F08BEA541E712FC700BEA89D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA531E712FC700BEA89D /* main.m */; };
 		F08BEA571E712FC700BEA89D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA561E712FC700BEA89D /* AppDelegate.m */; };
 		F08BEA5A1E712FC700BEA89D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA591E712FC700BEA89D /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		F08BEA621E712FC700BEA89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08BEA601E712FC700BEA89D /* LaunchScreen.storyboard */; };
 		F08BEA6D1E712FC700BEA89D /* NavigationBarForGradientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA6C1E712FC700BEA89D /* NavigationBarForGradientTests.m */; };
 		F08BEA781E712FC700BEA89D /* NavigationBarForGradientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA771E712FC700BEA89D /* NavigationBarForGradientUITests.m */; };
-		F08BEA871E7130B700BEA89D /* UINavigationBar+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA861E7130B700BEA89D /* UINavigationBar+Gradient.m */; };
 		F08BEA8A1E7130EC00BEA89D /* GradientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEA891E7130EC00BEA89D /* GradientVC.m */; };
 		F08BEAD21E76281500BEA89D /* TranslationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F08BEAD11E76281500BEA89D /* TranslationVC.m */; };
 /* End PBXBuildFile section */
@@ -38,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F038764820B407B000EA95CB /* UINavigationBar+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Gradient.h"; sourceTree = "<group>"; };
+		F038764920B407B000EA95CB /* UINavigationBar+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Gradient.m"; sourceTree = "<group>"; };
 		F08BEA4F1E712FC700BEA89D /* NavigationBarForGradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarForGradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08BEA531E712FC700BEA89D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F08BEA551E712FC700BEA89D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		F08BEA731E712FC700BEA89D /* NavigationBarForGradientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationBarForGradientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08BEA771E712FC700BEA89D /* NavigationBarForGradientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarForGradientUITests.m; sourceTree = "<group>"; };
 		F08BEA791E712FC700BEA89D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F08BEA851E7130B700BEA89D /* UINavigationBar+Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Gradient.h"; sourceTree = "<group>"; };
-		F08BEA861E7130B700BEA89D /* UINavigationBar+Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Gradient.m"; sourceTree = "<group>"; };
 		F08BEA881E7130EC00BEA89D /* GradientVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientVC.h; sourceTree = "<group>"; };
 		F08BEA891E7130EC00BEA89D /* GradientVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientVC.m; sourceTree = "<group>"; };
 		F08BEAD01E76281500BEA89D /* TranslationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationVC.h; sourceTree = "<group>"; };
@@ -87,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F038764720B407B000EA95CB /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				F038764820B407B000EA95CB /* UINavigationBar+Gradient.h */,
+				F038764920B407B000EA95CB /* UINavigationBar+Gradient.m */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
 		F08BEA461E712FC700BEA89D = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +119,7 @@
 		F08BEA511E712FC700BEA89D /* NavigationBarForGradient */ = {
 			isa = PBXGroup;
 			children = (
-				F08BEAD41E790E5800BEA89D /* Gradient */,
+				F038764720B407B000EA95CB /* Gradient */,
 				F08BEA551E712FC700BEA89D /* AppDelegate.h */,
 				F08BEA561E712FC700BEA89D /* AppDelegate.m */,
 				F08BEA581E712FC700BEA89D /* ViewController.h */,
@@ -152,15 +161,6 @@
 				F08BEA791E712FC700BEA89D /* Info.plist */,
 			);
 			path = NavigationBarForGradientUITests;
-			sourceTree = "<group>";
-		};
-		F08BEAD41E790E5800BEA89D /* Gradient */ = {
-			isa = PBXGroup;
-			children = (
-				F08BEA851E7130B700BEA89D /* UINavigationBar+Gradient.h */,
-				F08BEA861E7130B700BEA89D /* UINavigationBar+Gradient.m */,
-			);
-			name = Gradient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08BEAD21E76281500BEA89D /* TranslationVC.m in Sources */,
+				F038764A20B407B000EA95CB /* UINavigationBar+Gradient.m in Sources */,
 				F08BEA5A1E712FC700BEA89D /* ViewController.m in Sources */,
-				F08BEA871E7130B700BEA89D /* UINavigationBar+Gradient.m in Sources */,
 				F08BEA571E712FC700BEA89D /* AppDelegate.m in Sources */,
 				F08BEA541E712FC700BEA89D /* main.m in Sources */,
 				F08BEA8A1E7130EC00BEA89D /* GradientVC.m in Sources */,
