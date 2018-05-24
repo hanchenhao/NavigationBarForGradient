@@ -2,6 +2,21 @@
 
 一个UINavigationBar分类,可以动态改变导航栏的透明度以及大小.
 
+## 使用CocoaPods导入
+
+在文件 Podfile 中加入以下内容：
+```
+    pod 'NavigationBarForGradient', '~> 1.0.0'
+```
+然后在终端中运行以下命令：
+```
+    pod install
+```
+或者这个命令：
+```
+    pod update --verbose 
+```
+ 
 ## 手动安装
 
 #### 1 通过 Clone or download 下载 NavigationBarForGradient 文件夹内的所有内容。
