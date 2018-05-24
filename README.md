@@ -6,7 +6,7 @@
 
 在文件 Podfile 中加入以下内容：
 ```
-    pod 'NavigationBarForGradient', '~> 1.0.0'
+    pod 'NavigationBarForGradient', '~> 1.0.1'
 ```
 然后在终端中运行以下命令：
 ```
